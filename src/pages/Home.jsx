@@ -118,8 +118,8 @@ export default function Home() {
 			</div>
 			<div className="mt-20">
 				<h1 className="text-2xl ">Artigos recentes</h1>
-				<div className="my-5">
-					<div className="rounded bg-zinc-800 w">
+				<div className="my-5 ">
+					<div className="rounded bg-zinc-800 w-[300px] mx-auto">
 						<img
 							className="rounded"
 							src="https://images.unsplash.com/photo-1623039405147-547794f92e9e?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -141,8 +141,8 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-				<div className="my-5">
-					<div className="rounded bg-zinc-800 w">
+				<div className="my-5 ">
+					<div className="rounded bg-zinc-800 w-[300px] mx-auto">
 						<img
 							className="rounded"
 							src="https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -165,7 +165,7 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="my-5">
-					<div className="rounded bg-zinc-800 w">
+					<div className="rounded bg-zinc-800 w-[300px] mx-auto">
 						<img
 							className="rounded"
 							src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
