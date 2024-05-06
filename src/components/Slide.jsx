@@ -3,7 +3,7 @@ export default function Slide() {
 	return (
 		<Splide
 			aria-labelledby="Minhas imagens favoritas"
-			className="bg-cover bg-center rounded-xl flex "
+			className="bg-cover bg-center rounded-xl flex md:h-[400px] "
 		>
 			<SplideSlide
 				style={{
@@ -14,8 +14,8 @@ export default function Slide() {
 					borderRadius: '10px'
 				}}
 			>
-				<div className="bg-black/50 p-10  text-center font-semibold ">
-					<h1 className="text-2xl">
+				<div className="bg-black/50 p-10 md:h-full  text-center  font-semibold ">
+					<h1 className="text-2xl md:mt-14">
 						Escreve o seu trabalho academico comigo
 					</h1>
 					<button className="bg-orange-400 py-1 px-5 mt-2 rounded">
@@ -32,8 +32,8 @@ export default function Slide() {
 					borderRadius: '10px'
 				}}
 			>
-				<div className="bg-black/50 p-10  text-center font-semibold ">
-					<h1 className="text-2xl">
+				<div className="bg-black/50 p-10 md:h-full  text-center font-semibold ">
+					<h1 className="text-2xl md:mt-14">
 						Venha saber como Conseguir uma bolsa de estudo.
 					</h1>
 					<button className="bg-orange-400 py-1 px-5 mt-2 rounded">
@@ -51,7 +51,9 @@ export default function Slide() {
 				}}
 			>
 				<div className="bg-black/50 p-10 h-full text-center font-semibold ">
-					<h1 className="text-2xl">Marque uma consultoria comigo.</h1>
+					<h1 className="text-2xl md:mt-14">
+						Marque uma consultoria comigo.
+					</h1>
 					<button className="bg-orange-400 py-1 px-5 mt-2 rounded">
 						Fale comigo
 					</button>

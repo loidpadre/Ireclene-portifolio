@@ -8,9 +8,11 @@ export default function Article() {
 			<h1 className="text-2xl text-orange-300 font-semibold text-center ">
 				Artigos recentes
 			</h1>
-			{articleInfo.map((info) => (
-				<ArticleComponent info={info} />
-			))}
+			<div className='md:flex gap-10 '>
+				{articleInfo.map((info) => (
+					<ArticleComponent info={info} />
+				))}
+			</div>
 		</div>
 	)
 }

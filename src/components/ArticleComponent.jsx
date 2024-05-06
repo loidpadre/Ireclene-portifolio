@@ -1,10 +1,13 @@
 export default function ArticleComponent({ info }) {
 	const { title, img } = info
 	return (
-		<div className="my-5 ">
-			<div className="rounded bg-zinc-800 w-[300px] mx-auto">
-				<img className="rounded" src={img} />
-				<div className="p-10">
+		<div className="my-5 md:mt-14 md:mx-auto ">
+			<div className="rounded bg-zinc-800 w-[300px] mx-auto ">
+				<img
+					className="rounded h-[250px] w-full object-center"
+					src={img}
+				/>
+				<div className="p-10 h-[250px]">
 					<h1>{title}</h1>
 					<div className="border-b pb-2 border-zinc-500">
 						<button className="bg-orange-400 py-1 mt-5 px-5 rounded hover:bg-orange-500 font-semibold">

@@ -1,6 +1,6 @@
 export default function Contact() {
 	return (
-		<div className="full">
+		<div className="full md:w-[50%] md:mx-auto">
 			<h1 className="text-center text-orange-300 text-2xl my-10 font-semibold">
 				Me contrate
 			</h1>

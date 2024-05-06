@@ -1,7 +1,7 @@
 import { FaQuoteLeft } from 'react-icons/fa'
 export default function Quote() {
 	return (
-		<div className="mt-10 relative -top-28">
+		<div className="mt-10 relative -top-28 md:w-[50%] md:mx-auto">
 			<div className="space-y-5">
 				<FaQuoteLeft color="orange" size={30} />
 				<h1 className="font-semibold">

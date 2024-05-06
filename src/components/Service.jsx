@@ -8,9 +8,11 @@ export default function Service() {
 			<h1 className="text-2xl font-semibold text-orange-300 my-2 text-center  border-l-2 border-r-2 border-orange-300">
 				Serviços
 			</h1>
-			{service.map((info) => (
-				<ServiceComponent info={info} />
-			))}
+			<div className="md:grid grid-cols-2 gap-36 md:mt-20">
+				{service.map((info) => (
+					<ServiceComponent info={info} />
+				))}
+			</div>
 		</div>
 	)
 }

@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<div className="relative -top-32">
+		<div className="relative -top-32 md:mx-auto md:w-[80%]">
 			<h1 className="text-2xl font-semibold text-orange-300 my-2 text-center  border-l-2 border-r-2 border-orange-300 ">
 				Sobre mim
 			</h1>
